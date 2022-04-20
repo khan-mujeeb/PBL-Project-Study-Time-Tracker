@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="wrapper">
+            <p>
+                <span class="mins">00</span>:<span class="seconds">00</span>:<span class="tens">00</span>
+            </p> <br>
+            <button class="btn-start">Start</button>
+            <button class="btn-stop">Stop</button>
+            <button class="btn-reset">Next Task</button>
+            
+            <h1 class="wtd">Task to do</h1>
+            <input class="in" type="text" placeholder="Enter text">
+
+        </div>
+     
+    </div>
+    
+    <div class="performance">
+        <h1>PERFORMANCE</h1>
+
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+        <br>
+        <canvas id="barChart" style="width:100%;max-width:600px"></canvas>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    </div>
+    
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
